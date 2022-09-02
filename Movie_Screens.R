@@ -74,7 +74,7 @@ df %>%
         panel.grid.minor = element_blank(),
         panel.grid.major.y = element_line(color = "#000000", size = 0.25, linetype = "dashed"),
         axis.line.x.bottom = element_line(color = "#000000", size = 0.4),
-        panel.spacing = unit(1, "cm"),
+        panel.spacing = unit(1.25, "cm"),
         strip.text = element_text(size = 9, family = font2, color = "#000000", face="bold"),
         plot.margin = unit(c(1.5, 1.5, 1.5, 1.5), "cm"),
         plot.background = element_rect(color = "#F2F2F2", fill = "#F2F2F2")) +
